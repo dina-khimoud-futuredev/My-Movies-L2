@@ -1,0 +1,42 @@
+nav a:hover:not(:last-child){
+    border-bottom:1px solid red ;
+}
+
+.selected{
+    background-color: red;
+    border-bottom: 2px solid white !important;
+}
+
+/* scroll bar */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 2px !important;
+  height: 5px; /* Thinner scrollbar */
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: red;
+    border-radius: 5px;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background:gray;
+  }
+  #preview-container{
+    margin-top: 10px;
+    max-height: 150px;
+    justify-content: center;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    display: flex;
+}
+
+#preview-image {
+    width: 100%;
+    object-fit: contain;
+}
+input[type="checkbox"] {
+  accent-color: red !important;   
+}
